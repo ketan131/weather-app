@@ -1,0 +1,31 @@
+.SearchBox {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Form ko center aur column me lao */
+.SearchBox form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;   /* spacing between input & button */
+}
+
+/* Input field width */
+.SearchBox .MuiTextField-root {
+  width: 90%;
+  max-width: 300px;
+}
+
+/* Button styling */
+.SearchBox button {
+  width: 120px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect 🔥 */
+.SearchBox button:hover {
+  transform: scale(1.05);
+}
